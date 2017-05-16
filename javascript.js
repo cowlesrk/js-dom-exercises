@@ -134,16 +134,61 @@
 
 
 
-// Cycle through list with ID of "rainbow" with each color (red, orange, etc)
+// Changing heading text
+// ------------------------------------------------------------------------
+
+// let myHeading = document.querySelector('h1');
+// myHeading.textContent = "This is a new heading";
+
+
+
+// Changing the list description with user input
+// ------------------------------------------------------------------------
+
+// const input = document.querySelector("input");
+// const p = document.querySelector("p.description");
+// const button = document.querySelector("button");
+
+// button.addEventListener("click", () => {
+// 	p.textContent = input.value + ":";
+// });
+
+// p.title = "List description"
+
+
+
+// Replacing list text with innerHTML
+// ------------------------------------------------------------------------
+
+// let ul = document.querySelector('ul');
+// ul.innerHTML = "<li>red cabbage</li>"
+
+
+
+// Changing the list description with user input
 // ------------------------------------------------------------------------
 
 
-const input = document.querySelector("input");
-const p = document.querySelector("p.description");
-const button = document.querySelector("button");
 
-button.addEventListener("click", () => {
-	p.textContent = input.value + ":";
-});
 
-p.title = "List description"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
