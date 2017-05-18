@@ -301,10 +301,22 @@
 
 
 
+// Select first item in list, then remove list item element stored in firstListItem
+// ------------------------------------------------------------------------
+
+// let myList = document.querySelector("ul");
+// let firstListItem = document.querySelector("#first");
+
+// myList.removeChild(firstListItem);
 
 
 
+// Place the new element p as the last child of the element stored in the div constant
+// ------------------------------------------------------------------------
 
+// const div = document.querySelector("div#feedback");
+// const p = document.createElement("p");
+// div.appendChild(p);
 
 
 
