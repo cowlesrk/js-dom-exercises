@@ -211,42 +211,49 @@
 // Creating new elements: Let users add items to a list
 // ------------------------------------------------------------------------
 
-const toggleList = document.getElementById('toggleList');
-const listDiv = document.querySelector(".list");
-const descriptionInput = document.querySelector("input.description");
-const decriptionP = document.querySelector("p.description");
-const descriptionButton = document.querySelector("button.description");
-const addItemInput = document.querySelector("input.addItemInput");
-const addItemButton = document.querySelector("input.addItemButton");
+// const toggleList = document.getElementById('toggleList');
+// const listDiv = document.querySelector(".list");
+// const descriptionInput = document.querySelector("input.description");
+// const decriptionP = document.querySelector("p.description");
+// const descriptionButton = document.querySelector("button.description");
+// const addItemInput = document.querySelector("input.addItemInput");
+// const addItemButton = document.querySelector("input.addItemButton");
 
-toggleList.addEventListener("click", () => {
-	if (listDiv.style.display == "none") {
-		toggleList.textContent = "Hide List";
-		listDiv.style.display = "block";
-	} else {
-		toggleList.textContent = "Show List";
-		listDiv.style.display = "none";
-	}
-});
+// toggleList.addEventListener("click", () => {
+// 	if (listDiv.style.display == "none") {
+// 		toggleList.textContent = "Hide List";
+// 		listDiv.style.display = "block";
+// 	} else {
+// 		toggleList.textContent = "Show List";
+// 		listDiv.style.display = "none";
+// 	}
+// });
 
-descriptionButton.addEventListener("click", () => {
-	decriptionP.innerHTML = descriptionInput.value + ":";
-});
-
-
-addItemButton.addEventListener("click", () => {
-	let ul = document.getElementsByTagName("ul")[0];
-	let li = document.createElement("li");
-	li.textContent = addItemInput.value;
-	ul.appendChild(li);
-	addItemInput.value = "";
-});
+// descriptionButton.addEventListener("click", () => {
+// 	decriptionP.innerHTML = descriptionInput.value + ":";
+// 	descriptionInput.value = "";
+// });
 
 
+// addItemButton.addEventListener("click", () => {
+// 	let ul = document.getElementsByTagName("ul")[0];
+// 	let li = document.createElement("li");
+// 	li.textContent = addItemInput.value;
+// 	ul.appendChild(li);
+// 	addItemInput.value = "";
+// });
+
+// COULDN'T GET THIS TO WORK
 
 
 
+// Created new p element and added className, apphend newParagrah element to the content DIV element
+// ------------------------------------------------------------------------
 
+// const contentDiv = document.getElementById("content");
+// let newParagraph = document.createElement("p");
+// newParagraph.className = "panel";
+// contentDiv.appendChild(newParagraph);
 
 
 
