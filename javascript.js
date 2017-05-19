@@ -494,6 +494,9 @@
 
 // Using previousElementSibling and insertBefore
 // Move list item up when Up button is clicked
+
+// Using nextElementSibling
+// Move list item down when Down button is clicked
 // ------------------------------------------------------------------------
 
 const toggleList = document.getElementById('toggleList');
@@ -518,6 +521,15 @@ listUl.addEventListener("click", (event) => {
 			let ul = li.parentNode;
 			if (prevLi) {
 			ul.insertBefore(li, prevLi);
+			}
+			
+		}
+		if (event.target.className == "down") {
+			let li = event.target.parentNode;
+			let nextLi = li.nextElementSibling;
+			let ul = li.parentNode;
+			if (nextLi) {
+			ul.insertBefore(nextLi, li);
 			}
 			
 		}
